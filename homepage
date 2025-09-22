@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Press</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+      text-align: center;
+      line-height: 1.6;
+    }
+    header {
+      padding: 2rem;
+      border-bottom: 1px solid #222;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-size: 1.5rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .book {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .book:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 10px rgba(0,255,255,0.2);
+    }
+    .book-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+    }
+    .book-meta {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+    .book-description {
+      margin-bottom: 1rem;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #00ffff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background 0.3s ease;
+    }
+    .buy-button:hover {
+      background: #00cccc;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Generator Press</header>
+
+  <section>
+    <p>Feast of the machine.</p>
+
+    <div class="book">
+      <div class="book-title">Sand Escape</div>
+      <div class="book-meta">by Tarek Azad • Paperback, 142 pages • Published Jan 1, 2024 :contentReference[oaicite:1]{index=1}</div>
+      <div class="book-description">
+        Immerse yourself in the unreliable narration of our protagonist, Khalid, as he navigates the streets of Morocco, deceiving unsuspecting Western tourists and the local Marrakech police. Join him as he attempts to illegally immigrant to Canada, only to find that nothing in life comes free. :contentReference[oaicite:2]{index=2}  
+      </div>
+      <a class="buy-button" href="https://www.amazon.com/Sand-Escape-Narration-Arabian-Lion/dp/B0CR8XSM5Z" target="_blank">Buy on Amazon</a>
+    </div>
+
+    <!-- You can add more books similarly -->
+
+  </section>
+
+  <footer>
+    &copy; 2025 Generator Press • Built on GitHub Pages
+  </footer>
+
+</body>
+</html>
