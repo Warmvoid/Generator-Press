@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Press</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 20px;">
+  <h1 style="text-align:center;">Enter Generator Press</h1>
+  <p style="text-align:center;">Poetry and novel distribution and publishing</p>
+
+  <h2>Our Books</h2>
+  <div style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+    <h3>Sand Escape</h3>
+    <p>Immerse yourself in the unreliable narration of our protagonist, Khalid, as he navigates the streets of Morocco, deceiving unsuspecting Western tourists and the local Marrakech police. Join him as he attempts to illegally immigrant to Canada, only to find that nothing in life comes free.</p>
+    <a href="https://www.amazon.co.uk/dp/XXXXXXXX" target="_blank" style="display:inline-block; background:#ff9900; color:white; padding:10px 15px; text-decoration:none; border-radius:5px;">Buy on Amazon</a>
+  </div>
+</body>
+</html>
